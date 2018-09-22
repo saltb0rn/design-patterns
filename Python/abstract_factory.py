@@ -1,11 +1,10 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # abstract_factory.py
 from abc import ABCMeta, abstractmethod
 
+
 # ---------- 抽象 ----------
-
-
 class CPU(metaclass=ABCMeta):
 
     def __init__(self, spec):
