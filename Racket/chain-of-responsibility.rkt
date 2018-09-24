@@ -20,7 +20,6 @@
 (make-point-class point-2% 10 20 2 (send successor handle request))
 (make-point-class point-3% 20 30 3 (void))
 
-
 (define check-point-chain%
   (class object%
     (super-new)
@@ -39,8 +38,6 @@
     (define/public (check-requests requests)
       (for ([request (in-list requests)])
         (check-request request)))))
-
-
 
 (define (main)
   (define ckchain (new check-point-chain%))
