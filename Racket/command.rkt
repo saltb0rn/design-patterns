@@ -19,7 +19,7 @@
     (super-new)
 
     (define command-stack null)
-    
+
     (define/public (record command)
       (set! command-stack
             (append command-stack (list command))))
