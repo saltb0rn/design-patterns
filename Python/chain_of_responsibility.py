@@ -37,21 +37,21 @@ class Point3(CheckPoint):
 class CheckPointChain:
 
     def __init__(self):
-        self.h1 = Point1()
-        self.h2 = Point2()
-        self.h3 = Point3()
+        self.p1 = Point1()
+        self.p2 = Point2()
+        self.p3 = Point3()
         self.chain_point()
 
     def chain_point(self):
-        self.h1.chain(self.h2)
-        self.h2.chain(self.h3)
+        self.p1.chain(self.p2)
+        self.p2.chain(self.p3)
 
     def check_request(self, request):
-        self.h1.handle(request)
+        self.p1.handle(request)
 
     def check_requests(self, requests):
         for request in requests:
-            self.h1.handle(request)
+            self.check_request(request)
 
 
 def main():
