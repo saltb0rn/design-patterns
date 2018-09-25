@@ -1,4 +1,8 @@
+** Purpose
+
 After reading *Mastering Python Design Patterns*, I wrote some codes in Python and Racket (presently) for below design patterns.
+
+I found this is a good way to be more familiar to the new language you learn, so I will add more codes in other languages.
 
 ** Creational Patterns
 
@@ -20,7 +24,7 @@ After reading *Mastering Python Design Patterns*, I wrote some codes in Python a
 
 *** The Model-View-Controller Pattern
 
-    An architectural pattern rather than a design pattern, however, it is too important to be skipped.
+An architectural pattern rather than a design pattern, however, it is too important to be skipped.
 
 *** The Proxy Pattern
 
