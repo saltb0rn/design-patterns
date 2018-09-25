@@ -1,0 +1,41 @@
+After reading *Mastering Python Design Patterns*, I wrote some codes in Python and Racket (presently) for below design patterns.
+
+** Creational Patterns
+
+*** The Factory Pattern
+
+*** The Builder Pattern
+
+*** The Prototype Pattern
+
+** Structural Patterns
+
+*** The Adapter Pattern
+
+*** The Decorator Pattern
+
+*** The Facade Pattern
+
+*** The Flyweight Pattern
+
+*** The Model-View-Controller Pattern
+
+    An architectural pattern rather than a design pattern, however, it is too important to be skipped.
+
+*** The Proxy Pattern
+
+*** Chain of Responsibility Pattern
+
+** Behavioral Patterns
+
+*** The Command Pattern
+
+*** The Interpreter Pattern
+
+*** The Observer Pattern
+
+*** The State Pattern
+
+*** The Strategy Pattern
+
+*** The Template Pattern
